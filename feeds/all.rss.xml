@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>hjorm's blog: hjorm's blog</title>
+  <description>hjorm's blog: hjorm's blog</description>
+  <link>https://hjorm.github.com//index.html</link>
+  <lastBuildDate>Tue, 26 Jan 2021 13:43:19 UT</lastBuildDate>
+  <pubDate>Tue, 26 Jan 2021 13:43:19 UT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>Introduction</title>
+   <link>https://hjorm.github.com//2021/01/introduction.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-hjorm-github-com:-2021-01-introduction-html</guid>
+   <pubDate>Tue, 26 Jan 2021 13:43:19 UT</pubDate>
+   <author>hjorm</author>
+   <description>
+&lt;p&gt;I started this blog, using &lt;a href="https://racket-lang.org/"&gt;Racket&lt;/a&gt; and &lt;a href="https://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt;, to integrate the use of the Lisp into my daily activities as a programmer. To illustrate the process of gradual change of site codebase, I added template and config files to source control.&lt;/p&gt;</description></item></channel></rss>

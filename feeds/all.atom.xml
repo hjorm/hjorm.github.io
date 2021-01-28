@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <title type="text">hjorm's blog: hjorm's blog</title>
+ <link rel="self" href="https://hjorm.github.com//feeds/all.atom.xml" />
+ <link href="https://hjorm.github.com//index.html" />
+ <id>urn:https-hjorm-github-com:-index-html</id>
+ <updated>2021-01-26T13:43:19Z</updated>
+ <entry>
+  <title type="text">Introduction</title>
+  <link rel="alternate" href="https://hjorm.github.com//2021/01/introduction.html?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:https-hjorm-github-com:-2021-01-introduction-html</id>
+  <published>2021-01-26T13:43:19Z</published>
+  <updated>2021-01-26T13:43:19Z</updated>
+  <author>
+   <name>hjorm</name></author>
+  <content type="html">
+&lt;p&gt;I started this blog, using &lt;a href="https://racket-lang.org/"&gt;Racket&lt;/a&gt; and &lt;a href="https://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt;, to integrate the use of the Lisp into my daily activities as a programmer. To illustrate the process of gradual change of site codebase, I added template and config files to source control.&lt;/p&gt;</content></entry></feed>
