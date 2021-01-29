@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss version="2.0">
  <channel>
-  <title>hjorm's blog: hjorm's blog</title>
-  <description>hjorm's blog: hjorm's blog</description>
-  <link>https://hjorm.github.com//index.html</link>
+  <title>hjorm's blog: Posts tagged 'ruby'</title>
+  <description>hjorm's blog: Posts tagged 'ruby'</description>
+  <link>https://hjorm.github.com//tags/ruby.html</link>
   <lastBuildDate>Thu, 28 Jan 2021 17:03:52 UT</lastBuildDate>
   <pubDate>Thu, 28 Jan 2021 17:03:52 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>Rails (sort of)tutorial</title>
-   <link>https://hjorm.github.com//2021/01/rails-sort-of-tutorial.html?utm_source=all&amp;utm_medium=RSS</link>
+   <link>https://hjorm.github.com//2021/01/rails-sort-of-tutorial.html?utm_source=ruby&amp;utm_medium=RSS</link>
    <guid isPermaLink="false">urn:https-hjorm-github-com:-2021-01-rails-sort-of-tutorial-html</guid>
    <pubDate>Thu, 28 Jan 2021 17:03:52 UT</pubDate>
    <author>hjorm</author>
    <description>
 &lt;p&gt;There are quite a lot of good comprehensive books on developing web applications with Ruby on Rails, like &lt;a href="https://pragprog.com/titles/rails6/agile-web-development-with-rails-6/"&gt;Agile Web Development with Rails 6&lt;/a&gt; or &lt;a href="https://www.railstutorial.org/"&gt;The Ruby on Rails Tutorial&lt;/a&gt; by Michael Hartl. Although being great sources of information on building Rails applications from the ground up, they focus on a limited number of topics, omitting approaches to application architecture or skipping minutiae like disabling unwanted generators.  On the other hand, there are lots of tutorials and articles on various particulars of Rails, ranging from tuning config to intricacies of the naming of &amp;lsquo;service objects&amp;rsquo;, but often they are short or lack practical examples.&lt;/p&gt;
 
-&lt;p&gt;So I want to program a tiny RoR application and with help of Github illustrate and explain steps I have made, to further use as a reference point by anyone interested or as a reminder.&lt;/p&gt;</description></item>
-  <item>
-   <title>Introduction</title>
-   <link>https://hjorm.github.com//2021/01/introduction.html?utm_source=all&amp;utm_medium=RSS</link>
-   <guid isPermaLink="false">urn:https-hjorm-github-com:-2021-01-introduction-html</guid>
-   <pubDate>Tue, 26 Jan 2021 13:43:19 UT</pubDate>
-   <author>hjorm</author>
-   <description>
-&lt;p&gt;I started this blog, using &lt;a href="https://racket-lang.org/"&gt;Racket&lt;/a&gt; and &lt;a href="https://github.com/greghendershott/frog"&gt;Frog&lt;/a&gt;, to integrate the use of the Lisp into my daily activities as a programmer. To illustrate the process of gradual change of site codebase, I added template and config files to source control.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;So I want to program a tiny RoR application and with help of Github illustrate and explain steps I have made, to further use as a reference point by anyone interested or as a reminder.&lt;/p&gt;</description></item></channel></rss>

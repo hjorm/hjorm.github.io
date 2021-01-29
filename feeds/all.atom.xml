@@ -4,7 +4,19 @@
  <link rel="self" href="https://hjorm.github.com//feeds/all.atom.xml" />
  <link href="https://hjorm.github.com//index.html" />
  <id>urn:https-hjorm-github-com:-index-html</id>
- <updated>2021-01-26T13:43:19Z</updated>
+ <updated>2021-01-28T17:03:52Z</updated>
+ <entry>
+  <title type="text">Rails (sort of)tutorial</title>
+  <link rel="alternate" href="https://hjorm.github.com//2021/01/rails-sort-of-tutorial.html?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:https-hjorm-github-com:-2021-01-rails-sort-of-tutorial-html</id>
+  <published>2021-01-28T17:03:52Z</published>
+  <updated>2021-01-28T17:03:52Z</updated>
+  <author>
+   <name>hjorm</name></author>
+  <content type="html">
+&lt;p&gt;There are quite a lot of good comprehensive books on developing web applications with Ruby on Rails, like &lt;a href="https://pragprog.com/titles/rails6/agile-web-development-with-rails-6/"&gt;Agile Web Development with Rails 6&lt;/a&gt; or &lt;a href="https://www.railstutorial.org/"&gt;The Ruby on Rails Tutorial&lt;/a&gt; by Michael Hartl. Although being great sources of information on building Rails applications from the ground up, they focus on a limited number of topics, omitting approaches to application architecture or skipping minutiae like disabling unwanted generators.  On the other hand, there are lots of tutorials and articles on various particulars of Rails, ranging from tuning config to intricacies of the naming of &amp;lsquo;service objects&amp;rsquo;, but often they are short or lack practical examples.&lt;/p&gt;
+
+&lt;p&gt;So I want to program a tiny RoR application and with help of Github illustrate and explain steps I have made, to further use as a reference point by anyone interested or as a reminder.&lt;/p&gt;</content></entry>
  <entry>
   <title type="text">Introduction</title>
   <link rel="alternate" href="https://hjorm.github.com//2021/01/introduction.html?utm_source=all&amp;utm_medium=Atom" />
