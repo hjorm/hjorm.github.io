@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>The Task</title>
+    <meta name="description" content="The application I planning to create is based on some code assignment task. The requirements for the assignment are as follows:...">
+    <meta name="author"      content="hjorm">
+    <meta name="keywords"    content="rails, ruby, tutorial">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    <link rel="icon"      href="/favicon.ico">
+    <link rel="canonical" href="https://hjorm.github.com//2021/01/the-task.html">
+    <link rel="next" href="/2021/01/rails-sort-of-tutorial.html">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/pygments.css">
+    <link rel="stylesheet" type="text/css" href="/css/scribble.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <!-- Feeds -->
+    <link rel="alternate" type="application/atom+xml"
+          href="/feeds/all.atom.xml" title="Atom Feed">
+    <link rel="alternate" type="application/rss+xml"
+          href="/feeds/all.rss.xml" title="RSS Feed">
+    <!-- JS -->
+  </head>
+  <body>
+
+    <!-- A standard Twitter Bootstrap nav bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+              data-target="#navbar_collapse" aria-controls="navbar_collapse"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar_collapse">
+          <ul class="navbar-nav mr-auto">
+
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Tags <b class="caret"></b>
+              </a>
+
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="/tags/frog.html">frog</a><a class="dropdown-item" href="/tags/racket.html">racket</a><a class="dropdown-item" href="/tags/rails.html">rails</a><a class="dropdown-item" href="/tags/ruby.html">ruby</a><a class="dropdown-item" href="/tags/tutorial.html">tutorial</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/feeds/all.atom.xml">Atom</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/feeds/all.rss.xml">RSS</a>
+            </li>
+          </ul>
+      </div>
+
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <div class="row">
+
+        <!-- Main column -->
+        <div id="content" class="col-md-12">
+
+
+
+
+
+          <article>
+  <header>
+    <h1>The Task</h1>
+    <p class='date-and-tags'>
+<time datetime="2021-01-30" pubdate="true">2021-01-30</time> :: <span class="tags"><a href="/tags/rails.html">rails</a>, <a href="/tags/ruby.html">ruby</a>, <a href="/tags/tutorial.html">tutorial</a></span></p>
+  </header>
+
+<p>The application I planning to create is based on some code assignment task. The requirements for the assignment are as follows:</p>
+<!-- more-->
+
+<p>The service is a classified ads website. Users can create ads and submit them for moderation. Admins can view users and ads awaiting moderation. The admin can confirm the publication or reject it with a comment. Actions with the ad are logged. All published ads are displayed on the main page and can be filtered and sorted.</p>
+
+<p><strong>The main entities are</strong>:</p>
+
+<ul>
+ <li>User</li>
+ <li>Ad</li>
+ <li>Ad category</li></ul>
+
+<h3 id="ads">Ads</h3>
+
+<p>The ad has a title, description, several images, price.
+ <br />The ad can only be in one of the categories.
+ <br />The ad can be one of five types: &ldquo;sale&rdquo;, &ldquo;purchase&rdquo;, &ldquo;exchange&rdquo;, &ldquo;service&rdquo;, &ldquo;rental&rdquo;.
+ <br />The ad can be in one of the states: &ldquo;new&rdquo;, &ldquo;pending publication&rdquo;, &ldquo;rejected&rdquo;, &ldquo;published&rdquo;, &ldquo;archive&rdquo;.
+ <br />Every 10 minutes all ads that are more than 1 day in the &ldquo;published&rdquo; state should be transferred from &ldquo;published&rdquo; to &ldquo;archive&rdquo; state.
+ <br />All actions (who, when, from which to which state, comment, if any) with ads must be logged.</p>
+
+<h3 id="guests">Guests</h3>
+
+<p>Guests have access to the main page, can not create ads.</p>
+
+<h3 id="users">Users</h3>
+
+<p>The user can register on the site.
+ <br />The user must have an avatar image.
+ <br />The user can create ads. Immediately after creation, the ad is in the state &ldquo;new&rdquo;.
+ <br />The user has an account page in which he can see his ads and their status.
+ <br />When an ad is edited it automatically goes to &ldquo;new&rdquo; status.
+ <br />User can switch ads from &ldquo;new&rdquo; and &ldquo;archive&rdquo; status to &ldquo;pending publication&rdquo; state, as well as from any state to &ldquo;archive&rdquo; state.</p>
+
+<h3 id="administrator">Administrator</h3>
+
+<p>The administrator can create and edit ad categories.
+ <br />The administrator can view a list of all users and their ads in &ldquo;pending&rdquo;, &ldquo;rejected&rdquo;, &ldquo;published&rdquo; status.
+ <br />The administrator has a control panel that displays all ads from users in &ldquo;pending publication&rdquo; status.
+ <br />The administrator can move user ads from &ldquo;pending publication&rdquo; status to &ldquo;published&rdquo; or &ldquo;rejected&rdquo;.
+ <br />When an ad is rejected by an administrator, he must specify a comment, which will be visible in the ad action log.</p>
+
+<h3 id="main-page">Main page</h3>
+
+<p>The main page is a list of ads from different users in &ldquo;published&rdquo; state. Ads can be sorted by publication date and price.
+ <br />Ads can be filtered by category and status simultaneously or separately.
+ <br />It should be possible to find the ad by content.</p>
+  <footer>
+    <div class="row justify-content-center">
+      <nav aria-label="Page Navigation">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="/2021/01/rails-sort-of-tutorial.html"
+               aria-label="Previous">
+              <span aria-hidden="true">&larr; Rails (sort of)tutorial</span>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</article>
+        </div>
+      </div>
+      <footer>
+        <hr />
+        <p>Site generated
+        by <a href="https://github.com/greghendershott/frog">Frog</a>,
+        the <strong>fr</strong>ozen bl<strong>og</strong> tool.</p>
+        <p>Using <a href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a>.</p>
+      </footer>
+    </div>
+    <!-- </body> JS -->
+    <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

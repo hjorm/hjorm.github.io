@@ -4,7 +4,17 @@
  <link rel="self" href="https://hjorm.github.com//feeds/rails.atom.xml" />
  <link href="https://hjorm.github.com//tags/rails.html" />
  <id>urn:https-hjorm-github-com:-tags-rails-html</id>
- <updated>2021-01-28T17:03:52Z</updated>
+ <updated>2021-01-30T15:16:46Z</updated>
+ <entry>
+  <title type="text">The Task</title>
+  <link rel="alternate" href="https://hjorm.github.com//2021/01/the-task.html?utm_source=rails&amp;utm_medium=Atom" />
+  <id>urn:https-hjorm-github-com:-2021-01-the-task-html</id>
+  <published>2021-01-30T15:16:46Z</published>
+  <updated>2021-01-30T15:16:46Z</updated>
+  <author>
+   <name>hjorm</name></author>
+  <content type="html">
+&lt;p&gt;The application I planning to create is based on some code assignment task. The requirements for the assignment are as follows:&lt;/p&gt;&lt;a href="https://hjorm.github.com//2021/01/the-task.html?utm_source=rails&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry>
  <entry>
   <title type="text">Rails (sort of)tutorial</title>
   <link rel="alternate" href="https://hjorm.github.com//2021/01/rails-sort-of-tutorial.html?utm_source=rails&amp;utm_medium=Atom" />
