@@ -24,3 +24,54 @@ article img {
   max-width: 100%;
   height: auto;
 }
+
+
+body {
+    color: #4f5151;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+    padding: 1em;
+}
+
+#header {
+    border-bottom: 1px solid #4f5151;
+}
+
+#container {
+    margin: 1em auto;
+    max-width: 770px;
+}
+
+article {
+    border-bottom: 1px solid #4f5151;
+    padding-bottom: 1em;
+}
+
+a {
+    color: #d9230f !important;
+    text-decoration: none;
+}
+
+#menu ul,
+#menu ul li,
+footer ul {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#menu ul li {
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.entry-title {
+    font-size: 2em;
+}
+
+article footer {
+    border-top: 1px solid #4f5151;
+    margin-top: 1em;
+    padding: .5em 0;
+}
