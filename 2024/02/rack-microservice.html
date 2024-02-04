@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Rack microservice</title>
+    <meta name="description" content="I recently came across this coding assignment of creating a microservice in Ruby. I found it interesting and a bit challenging.   Assignment text under spoiler     You need to create an endpoint for a POST request that will accept requests with data in JS...">
+    <meta name="author"      content="hjorm">
+    <meta name="keywords"    content="ruby, rack, basics">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    <link rel="icon"      href="/favicon.ico">
+    <link rel="canonical" href="https://hjorm.github.com//2024/02/rack-microservice.html">
+    <link rel="next" href="/2024/01/introduction.html">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/css/pygments.css">
+    <link rel="stylesheet" type="text/css" href="/css/scribble.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+  </head>
+  <body>
+    <div id="container">
+      <header id="header">
+        <nav id="menu">
+          <ul>
+            <li>
+              <a class="nav-link" href="/index.html">Blog</a>
+            </li> 
+            <li><a href="https://github.com/hjorm/">Github profile</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main id="content">
+
+
+
+        <article>
+  <header>
+    <h1 class="entry-title">Rack microservice</h1>
+    <p class='date-and-tags'>
+<time datetime="2024-02-04" pubdate="true">2024-02-04</time> :: <span class="tags"><a href="/tags/ruby.html">ruby</a>, <a href="/tags/rack.html">rack</a>, <a href="/tags/basics.html">basics</a></span></p>
+  </header>
+
+<p>I recently came across this coding assignment of creating a microservice in Ruby. I found it interesting and a bit challenging.</p>
+
+<details>
+ <summary>Assignment text under spoiler</summary>
+ <ul>
+  <li>You need to create an endpoint for a POST request that will accept requests with data in JSON format.</li>
+  <li>Incoming request must contain information about the user. The data structure can be defined by you, but it must follow the JSON format.</li>
+  <li>Microservice should validate the received data and save it to a database. You can choose any database you prefer to work with.</li>
+  <li>If data is successfully saved, then microservice should return a status of 201 Created and a URL to the saved data.</li>
+  <li>You should create a GET request endpoint that will return a list of stored records</li>
+  <li>You can add authentication and authorization to the microservice (optional)</li>
+  <li>Pay special attention to the minimalism of your code. The fewer lines, classes, files and gems, the better.</li></ul></details>
+
+<p>The main requirement - minimal use of libraries, gems and generally minimal code - got me interested. It is really easy to create the necessary functionality using Rails, Hanami, Sinatra etc., but I&rsquo;ve never done anything like this with Rack.</p>
+  <footer>
+    <div class="row justify-content-center">
+      <nav aria-label="Page Navigation">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="/2024/01/introduction.html"
+               aria-label="Previous">
+              <span aria-hidden="true">&larr; Introduction</span>
+            </a>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</article>
+      </main>
+      <footer>
+        <hr />
+        <p>Site generated
+        by <a href="https://github.com/greghendershott/frog">Frog</a>,
+        the <strong>fr</strong>ozen bl<strong>og</strong> tool.</p>
+      </footer>
+    </div>
+    <!-- </body> JS -->
+    <script type="text/javascript" src="/js/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
